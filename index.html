@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Lover Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Coffee Lover</a>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Welcome to Coffee Lover</h1>
+      <p>Discover the finest coffee beans and accessories</p>
+      <a href="#products" class="btn">Explore Our Products</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are passionate about coffee and aim to provide the best coffee experience to our customers. From specialty coffee beans to brewing equipment, we have it all.</p>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-items">
+        <div class="product-item">
+          <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Coffee 1">
+          <h3>Specialty Coffee Blend</h3>
+          <p>A rich and smooth blend of coffee beans sourced from around the world.</p>
+          <span class="price">$12.99</span>
+        </div>
+        <div class="product-item">
+          <img src="https://media.istockphoto.com/id/1349239413/photo/shot-of-coffee-beans-and-a-cup-of-black-coffee-on-a-wooden-table.webp?b=1&s=170667a&w=0&k=20&c=0bVq4jWM5d6r4Klp0si4um7QjZIQkMjYLtuDU7oWUps=" alt="Coffee 2">
+          <h3>Single-Origin Coffee Beans</h3>
+          <p>Experience the unique flavors of single-origin coffee beans from various regions.</p>
+          <span class="price">$14.99</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-form">
+        <form id="newsletterForm">
+          <input type="text" id="name" placeholder="Your Name">
+          <input type="email" id="email" placeholder="Your Email">
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <p id="formMessage"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Coffee Lover. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
